@@ -11,13 +11,13 @@ body{
   align-items: center;
 }
 
-h3{
+h1{
   background: #00f100;
   box-shadow: 2px 0 12px .8px;
   border-radius: 5px;
   padding: .2rem;
 }
 
-h3:hover{
+h1:hover{
   background-image: radial-gradient(#ccc, #00f100);
 }
