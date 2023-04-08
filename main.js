@@ -6,4 +6,4 @@ const getData = async () => {
     return res
 }
 
-app.innerText(() => {getData()})
+app.innerText = getData()
