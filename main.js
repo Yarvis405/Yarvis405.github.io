@@ -1,6 +1,6 @@
 "use strict";
 import players from 'data.json' assert{type: 'json'}
 
-alert(players);
+alert(stringify.JSON(players));
 
 const view = document.getElementById("#app").innerHTML = players;
