@@ -1,5 +1,5 @@
 "use strict";
-import players from 'data.json' assert{type: 'json'}
+import players from './data.json' assert{type: 'json'}
 
 alert(stringify.JSON(players));
 
