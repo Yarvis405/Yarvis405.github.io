@@ -1,5 +1,9 @@
+const app = document.querySelector("#app")
+
 const getData = async () => {
     data = await fetch('./data.json');
-    alert(data)
-
+    res = await data.json();
+    return res
 }
+
+app.innerText(data => {getData()})
