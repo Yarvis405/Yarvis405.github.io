@@ -31,7 +31,7 @@ h1:hover{
 
 #app{
   background-color: #1c1c1c;
-  color: aqua;
+  color: #4444c5;
   width: var(--width);
   height: var(--height);
   border: dashed 1.5px #ccc;
