@@ -19,5 +19,5 @@ h3{
 }
 
 h3:hover{
-  background-image: radial-gradient(#ccc #00f100);
+  background-image: radial-gradient(#ccc, #00f100);
 }
