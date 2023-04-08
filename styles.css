@@ -35,3 +35,7 @@ h1:hover{
   height: var(--height);
   border: dashed 1.5px #ccc;
 }
+
+h1, #app{
+  padding: 1rem;
+}
