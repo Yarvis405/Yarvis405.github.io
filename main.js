@@ -1,1 +1,5 @@
-const data = new Request('./data.json')
+const getData = async () => {
+    data = await fetch('./data.json');
+    alert(data)
+
+}
