@@ -12,7 +12,7 @@ body{
 }
 
 h1, h2, h3{
-  background: #00f100
+  background: #00f100;
   box-shadow: 2px 0 12px .8px;
   border-radius: 5px;
   padding: .2rem;
