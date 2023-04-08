@@ -1,3 +1,8 @@
+:root{
+  --width: calc(100vh/1.1);
+  --height: calc(100vh/2)
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -7,6 +12,7 @@
 body{
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -20,4 +26,12 @@ h1{
 
 h1:hover{
   background-image: radial-gradient(#ccc, #00f100);
+}
+
+#app{
+  background-color: #1c1c1c;
+  color: aqua;
+  width: var(--width);
+  height: var(--height);
+  border: dashed 1.5px #ccc;
 }
