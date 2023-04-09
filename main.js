@@ -6,9 +6,7 @@ const getData = async (file) => {
     let res = await data.json();
     
     res.forEach(e => {
-        for(i in e){
-            app.innerText = e[i]
-        }
+            app.innerText = e;
     });
 }
 
