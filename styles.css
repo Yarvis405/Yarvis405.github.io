@@ -1,10 +1,8 @@
-:root{
-  --width: calc(100vh/1.1);
-  --height: calc(100vh/2)
-}
+:root{}
 
 *{
   font-family: 0;
+  color: #3d3dff;
   transition: all .3s;
 }
 
@@ -14,3 +12,21 @@ body{
   background: #1f1f1f;
   min-height: 100vh;
 }
+
+.hide{
+  display: none;
+}
+
+header{}
+
+section{}
+
+.home{}
+
+.project{}
+
+.about{}
+
+.notice{}
+
+footer{}
