@@ -4,40 +4,13 @@
 }
 
 *{
-  margin: 0;
-  padding: 0;
   font-family: 0;
+  transition: all .3s;
 }
 
 body{
+  margin: 0;
+  padding: 0;
   background: #1f1f1f;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-h1{
-  background: #00f100;
-  box-shadow: 2px 0 12px .8px;
-  border-radius: 5px;
-  padding: .2rem;
-}
-
-h1:hover{
-  background-image: radial-gradient(#ccc, #00f100);
-}
-
-#app{
-  background-color: #1c1c1c;
-  color: #4444c5;
-  width: var(--width);
-  height: var(--height);
-  border: dashed 1.5px #ccc;
-  overflow-y: scroll;
-}
-
-h1, #app{
-  margin: 1rem;
 }

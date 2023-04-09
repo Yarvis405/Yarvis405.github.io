@@ -5,12 +5,68 @@
     <meta name="description" content="a test website"/>
     <meta name="keywords" content="test, app, json, lan, etc"/>
     <title>Test website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"/> 
   </head>
   
   <body>
-    <h1>github pages testing</h1>
-    <div id="app"></div>
+    <header>
+      <h1>Yarvis405</h1>
+      <nav>
+        <a herf="home"><input type="button" value="Home"></a>
+        <a  href="projects"><input type="button" value="Projects"></a>
+        <a href="about"><input type="button" value="About"></a>
+      </nav>
+    </header>
+
+    <section>
+      <!-- home -->
+      <!-- information general -->
+      <article class="home" id="home">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">General Information</h5>
+            <p class="card-text">
+              Hi, My name is <b>Eben</b>, I'm a <b>Front-end Web Developer</b>, I would consider myself 
+              as a mid-senior developer. I'd learned web design during more than 5 years. I'm also 
+              learning Back-end(database) but I've a lot of way forward.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="none" alt="image/or representation" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">General Information</h5>
+            <p class="card-text"><b>Name:</b> Eben</p>
+            <p class="card-text"><b>Birth:</b> 10-07-04</p>
+            <p class="card-text"><b>Rank:</b> Mid-Senior</p>
+          </div>
+        </div>
+      </article>
+      <!-- projectos -->
+      <article class="project" id="project">
+        <p>project enviroments</p>
+        <p class="alert alert-danger" role="alert"><b>Notice:</b> this space is in development</p>
+      </article>
+      <!-- about -->
+      <article class="about" id="about">
+        <div class="contacto" id="contacto"></div>
+        <div class="services" id="services">
+          <h2>services</h2>
+          <h3>support and maintenance</h3>
+        </div>
+      </article>
+      <!-- publicidad -->
+      <aside class="notice" id="notice">
+        <div></div>
+        <div></div>
+      </aside>
+    </section>
+
+    <footer>
+      <p>&copyYarvis405</p>
+      <p>supported by github</p>
+    </footer>
 
     <script src="main.js" type="module"></script>
   </body>

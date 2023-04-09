@@ -1,0 +1,30 @@
+const app = document.querySelector("#app")
+const jsonData = "https://jsonplaceholder.typicode.com/users"
+
+const getData = async (file) => {
+    let data = await fetch(file);
+    let res = await data.json();
+    
+    for (const key in res) {
+        if (res.hasOwnProperty.call(res, key)) {
+            const element = res[key];
+            app.innerText = element;
+            
+        }
+    }
+}
+
+getData(jsonData);
+
+/------------------------------------------------------------------
+
+
+<table>
+                <th>Name:</th>
+                <th>Bith:</th>
+                <th>Rank:</th>
+                <tr></tr>
+                <td>Eben</td>
+                <td>10-07-04</td>
+                <td>Mid-Senior</td>
+              </table>
