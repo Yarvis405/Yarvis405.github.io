@@ -35,6 +35,7 @@ h1:hover{
   width: var(--width);
   height: var(--height);
   border: dashed 1.5px #ccc;
+  overflow-y: scroll;
 }
 
 h1, #app{

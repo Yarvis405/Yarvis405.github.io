@@ -1,4 +1,5 @@
 const app = document.querySelector("#app")
+const jsonData = "https://jsonplaceholder.typicode.com/users"
 
 const getData = async () => {
     let data = await fetch('./data.json');
