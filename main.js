@@ -4,9 +4,9 @@ const getData = async () => {
     let data = await fetch('./data.json');
     let res = await data.json();
     
-    res.players.forEach(i => {
-        app.innerText = i
-    });
+    for (i in res.players){
+        app.innerText = res.players[i]
+    }
 }
 
 getData();
