@@ -5,11 +5,13 @@ const getData = async (file) => {
     let data = await fetch(file);
     let res = await data.json();
     
-    res.forEach(e => {
-        for(i in e){
-            app.innerText = e[i]
+    for (const key in res) {
+        if (res.hasOwnProperty.call(res, key)) {
+            const element = res[key];
+            app.innerText = element;
+            
         }
-    });
+    }
 }
 
 getData(jsonData);
