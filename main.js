@@ -4,6 +4,8 @@ const getData = async () => {
     data = await fetch('./data.json');
     res = await data.json();
     
-    app.innerText = res.players.nick;
+    app.innerText = JSON.stringify(res);
 }
+
+getData();
 
