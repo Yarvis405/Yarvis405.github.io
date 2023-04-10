@@ -37,13 +37,37 @@ section{
   align-items: center;
 }
 
-.home{}
+.home{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
 
-.project{}
+.project{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: space-between;
+}
 
-.about{}
+.about{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: center;
+}
 
-.notice{}
+.notice{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: space-betwwen;
+  align-items: center;
+}
 
 footer{
   grid-area: 3 / 1 / span 1 / 2;
