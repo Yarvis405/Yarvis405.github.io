@@ -49,6 +49,11 @@ section{
   align-items: center;
 }
 
+.home div{
+  width: 49%;
+  height: fit-content
+}
+
 .project{
   display: flex;
   flex-direction: column;
