@@ -21,6 +21,7 @@ body{
 }
 
 header{
+  background: green;
   height: fit-content;
   padding: .2rem;
   grid-area: 1 / 1 / span 1 / 2;
@@ -72,6 +73,7 @@ section{
 }
 
 footer{
+  background: red;
   grid-area: 3 / 1 / span 1 / 2;
   padding: .2rem;
   display: flex;
