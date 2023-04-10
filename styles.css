@@ -29,9 +29,10 @@ header{
 }
 
 section{
-  display: grid;
-  grid-template-columns: auto ;
-  grid-template-rows: 2rem auto 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home{}
