@@ -12,7 +12,7 @@ body{
   background: #1f1f1f;
   min-height: 100vh;
   display: grid;
-  grid-template-rows: auto;
+  grid-template-rows: 2rem auto 2rem;
   grid-template-columns: auto;
 }
 
