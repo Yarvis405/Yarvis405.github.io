@@ -6,6 +6,7 @@
   font-family: 0;
   color: #3d3dff;
   transition: all .3s;
+  border: solid 1px black;
 }
 
 body{
