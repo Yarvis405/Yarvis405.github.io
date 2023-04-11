@@ -35,13 +35,14 @@ header{
 
 section{
   grid-area: 2 / 1 / 3 / 2;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-column: 70% auto;
   justify-content: center;
   align-items: center;
 }
 
 .home{
+  grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
   flex-wrap: no-wrap;
@@ -55,22 +56,27 @@ section{
 }
 
 .project{
+  grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: column;
   /* flex-wrap: wrap; */
   justify-content: center;
   align-items: space-between;
+  display: hide;
 }
 
 .about{
+  grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: column;
   /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
+  display: hide;
 }
 
 .notice{
+  grid-area: 1 / 2 / 2 / 3;
   display: flex;
   flex-direction: column;
   /* flex-wrap: wrap; */
