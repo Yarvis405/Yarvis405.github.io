@@ -9,3 +9,9 @@
   border: solid 1px black;
 }
 
+body{
+  min-heiht: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 2rem auto 2rem;
+}
