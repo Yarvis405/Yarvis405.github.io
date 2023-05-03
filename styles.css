@@ -10,7 +10,7 @@
 }
 
 body{
-  min-heiht: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 2rem auto 2rem;
@@ -25,7 +25,13 @@ article{
 /* about */
 /* notice */
 
-.home{}
+.home{
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
 .project{}
 
