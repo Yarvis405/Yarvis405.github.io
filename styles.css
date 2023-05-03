@@ -13,7 +13,7 @@ body{
   min-heiht: 100vh;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 2rem auto 2rem;
+  grid-template-rows: 2rem 100vh 2rem;
 }
 
 article{
