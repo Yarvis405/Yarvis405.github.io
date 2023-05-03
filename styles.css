@@ -29,7 +29,7 @@ article{
 /* footer */
 
 header{
-  background-color: #121212;
+  /* background-color: #121212; */
   min-height: fit-content;
   padding: 0.2;
   display: flex;
@@ -51,7 +51,7 @@ header nav{
   min-height: fit-content;
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: center;
 }
 
