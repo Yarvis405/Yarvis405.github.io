@@ -13,9 +13,22 @@ body{
   min-heiht: 100vh;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 2rem 100vh 2rem;
+  grid-template-rows: 2rem 94vh 2rem;
 }
 
 article{
   display: none;
 }
+
+/* home */
+/* project */
+/* about */
+/* notice */
+
+.home{}
+
+.project{}
+
+.about{}
+
+.notice{}
