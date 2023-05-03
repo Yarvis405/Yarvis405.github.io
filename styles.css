@@ -41,7 +41,7 @@ header{
   min-height: fit-content;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
 }
 
