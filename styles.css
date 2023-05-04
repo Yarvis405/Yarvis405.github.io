@@ -14,7 +14,7 @@ body{
   min-height: 100vh;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 4rem auto 2rem;
+  grid-template-rows: auto auto auto;
 }
 /*
 article{
