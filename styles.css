@@ -48,6 +48,11 @@ header nav{
   align-items: center;
 }
 
+section{
+  background-color: #c0c;
+  display: flex;
+}
+
 .home{
   background-color: #0f0;
   min-height: fit-content;
