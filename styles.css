@@ -10,6 +10,10 @@
   border: solid 1px black;
 }
 
+html{
+  background-color: rgb(63, 63, 63);
+}
+
 body{
   background-color: #1c1c1c;
   min-height: 100vh;
