@@ -51,7 +51,11 @@ header nav{
 section{
   background-color: #c0c;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+/* rgb unreal standard height 127 63 */
 
 .home{
   background-color: #0f0;
@@ -59,7 +63,7 @@ section{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .project{
@@ -73,8 +77,7 @@ section{
 }
 
 .notice{
-  background-color: #0f0;
-  display: none;
+  background-color: #0ff;
 }
 
 footer{
