@@ -1,20 +1,23 @@
 // import "./theme.js"
-import {nav, btn} from "./nav.js";
+import {nav, btnHome, btnServices, btnAds, btnAbout} from "./nav.js";
 
-btn[0].addEventListener("click", () => {
+nav(null);
+
+btnHome.addEventListener("click", () => {
 	nav(0) 
-})
-btn[1].addEventListener("click", () => {
-	nav(1) 
-})
-btn[2].addEventListener("click", () => {
-	nav(2) 
-})
-btn[3].addEventListener("click", () => {
-	nav(3) 
-})
+});
 
-nav(null)
+btnServices.addEventListener("click", () => {
+	nav(1) 
+});
+
+btnAds.addEventListener("click", () => {
+	nav(2) 
+});
+
+btnAbout.addEventListener("click", () => {
+	nav(3) 
+});
 
 /*
 function select(){

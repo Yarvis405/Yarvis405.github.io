@@ -6,10 +6,10 @@ let about = document.querySelector("#about")
 let title = document.querySelector("#title")
 
 // buttons
-let btnHome = document.querySelector("#btnHome")
-let btnServices = document.querySelector("#btnServices")
-let btnAds = document.querySelector("#btnAds")
-let btnAbout = document.querySelector("#btnAbout")
+export let btnHome = document.querySelector("#btnHome")
+export let btnServices = document.querySelector("#btnServices")
+export let btnAds = document.querySelector("#btnAds")
+export let btnAbout = document.querySelector("#btnAbout")
 
 export let btn = { btnHome, btnServices, btnAds, btnAbout}
 // export let section = 0
