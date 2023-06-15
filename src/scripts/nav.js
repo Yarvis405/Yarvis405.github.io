@@ -19,6 +19,7 @@ export const nav = (section) => {
 	switch(section){
 		case 0:
 			title.innerHTML = "Yarvis405 - Home";
+			home.styles.display = "flex"
 			services.style.display = "none";
 			ads.style.display = "none";
 			about.style.display = "none";
@@ -26,6 +27,7 @@ export const nav = (section) => {
 
 		case 1:
 			title.innerHTML = "Yarvis405 - Services";
+			services.style.display = "flex";
 			home.style.display = "none";
 			ads.style.display = "none";
 			about.style.display = "none";
@@ -33,6 +35,7 @@ export const nav = (section) => {
 
 		case 2:
 			title.innerHTML = "Yarvis405 - Ads";
+			ads.style.display = "flex";
 			services.style.display = "none";
 			home.style.display = "none";
 			about.style.display = "none";
@@ -40,6 +43,7 @@ export const nav = (section) => {
 
 		case 3:
 			title.innerHTML = "Yarvis405 - About";
+			about.style.display = "flex";
 			services.style.display = "none";
 			ads.style.display = "none";
 			home.style.display = "none";
