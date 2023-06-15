@@ -1,7 +1,7 @@
 // import "./theme.js"
 import {nav, btnHome, btnServices, btnAds, btnAbout} from "./nav.js";
 
-nav(null);
+nav();
 
 btnHome.addEventListener("click", () => {
 	nav(0) 

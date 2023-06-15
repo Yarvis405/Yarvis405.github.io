@@ -19,7 +19,7 @@ export const nav = (section) => {
 	switch(section){
 		case 0:
 			title.innerHTML = "Yarvis405 - Home";
-			home.styles.display = "flex"
+			home.style.display = "flex";
 			services.style.display = "none";
 			ads.style.display = "none";
 			about.style.display = "none";
@@ -52,6 +52,7 @@ export const nav = (section) => {
 
 		default:
 			title.innerHTML = "Yarvis405 - Home";
+			home.style.display = "flex";
 			services.style.display = "none";
 			ads.style.display = "none";
 			about.style.display = "none";
