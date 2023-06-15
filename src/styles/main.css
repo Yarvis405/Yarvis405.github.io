@@ -1,0 +1,62 @@
+@import "./home.css";
+@import "./services.css";
+@import "./about.css";
+@import "./advertise.css";
+
+/*
+dark theme(main -> #1d1c1a, second -> #c3b1e1, main-font -> #faf8f6, sub-font -> #808080)
+light theme(main -> #faf8f6, second -> #c3b1e1, main-font -> #1c1d1a, sub-font -> #808080)
+*/
+
+:root{
+/*	theme*/
+	--cfirst: #1d1c1a;
+	--csecond: #c3b1e1;
+	--cfourth: #808080;
+	--cfifth: #faf8f6;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+/*	border: solid 1px black;*/
+	border-radius: 2%;
+	font-family: "New Courier";
+}
+
+body{
+	height: 100vh;
+	background: var(--main-color);
+}
+
+.mainly{
+	width: 100%;
+	display: grid;
+	grid-template-rows: auto 100% auto;
+	gap: 2rem;
+}
+
+header{
+	grid-area: 1 / 1 / -4 / 2;
+	border:solid 1px black;
+}
+
+header a,
+header a:hover,
+header a:focus,
+header a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+ header a{cursor: pointer;}
+
+main{
+	grid-area: 2 / 1 / -3 / 2;
+	border:solid 1px black;
+}
+
+footer{
+	grid-area: 3 / 1 / -2 / -1;
+	border:solid 1px black;
+}
