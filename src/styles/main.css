@@ -30,7 +30,7 @@ body{
 }
 
 .mainly{
-	width: 100%;
+	width: 90vh;
 	display: grid;
 	grid-template-rows: auto 100% auto;
 	gap: 2rem;
