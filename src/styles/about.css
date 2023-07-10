@@ -1,0 +1,6 @@
+.about{
+	height: 100%;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

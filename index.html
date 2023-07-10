@@ -1,152 +1,168 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title id="title">Yarvis405</title>
-  <link rel="stylesheet" href="./src/styles/bootstrap.min.css" >
-  <link rel="stylesheet" href="./src/styles/main.css" >
-  <link rel="icon" href="favicon.ico">
-</head>
-<body>
-  <div class="mainly">
-    <header>
-      <div id="info" class="info">
-        <h1>Yarvis405</h1>
-        <h2>Perfection means try and fail many times</h2>
-      </div>
-
-      <nav>
-        <a id="btnHome" class="btnHome">Home</a>
-        <a id="btnServices" class="btnServices">services</a>
-        <a id="btnAds" class="btnAds">ads</a>
-        <a id="btnAbout" class="btnAbout">about</a>
-      </nav>
-    </header>
-
-    <main>
-      <!-- Home -->
-      <section id="home" class="home">
-        <!-- main -->
-        <article id="main" class="main">
-          <!-- know-me -->
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Introduction</h5>
-              <p class="card-text">My name is <b>Eben</b>, I'm a <b>Junior</b> web developer, I'm also Learned backend but now I'm just focusing on the design.</p>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text"><b>Name:</b> Eben</p>
-              <p class="card-text"><b>Birth:</b> 10-07-2004</p>
-              <p class="card-text"><b>Rank:</b> junior</p>
-            </div>
-          </div>
-        </article>
-
-        <!-- projects -->
-        <article id="projects" class="projects">
-          <p class="alert alert-danger">Projects is on development</p>
-        </article>
-
-        <!-- advertisement petition -->
-        <p class="alert alert-danger">Si quieres apoyar a esta pagina puedes digirte a la section de anuncios ;)</p>
-      </section>
-
-      <!-- services -->
-      <section id="services" class="services">
-        <!-- shop -->
-        <article id="shop" class="shop">
-          <!-- layout -->
-          <div id="layout" class="layout">
-            <p class="alert alert-danger">webName - layout shop is on development</p>
-          </div>
-
-          <!-- custom -->
-          <div id="custom" class="custom">
-            <p class="alert alert-danger">webName - custom shop is on development</p>
-          </div>
-        </article>
-
-        <!-- support -->
-        <article id="support" class="support">
-          <!-- layout -->
-          <div id="layout" class="layout">
-            <p class="alert alert-danger">webName - layiut support is on development</p>
-          </div>
-
-          <!-- custom -->
-          <div id="custom" class="custom">
-            <p class="alert alert-danger">webName - custom support is on development</p>
-          </div>
-        </article>
-
-
-      </section>
-
-      <!-- about -->
-      <section id="about" class="about">
-        <!-- who am i -->
-        <article id="whoami" class="whoami">
-        </article>
-        
-        <!-- curriculum vintae -->
-        <article id="cv" class="cv">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="cv-image">
-            <div class="card-body">
-              <p class="card-text">this is my <a href="#">cv</a> with some of my experiences</p>
-            </div>
-          </div>
-        </article>
-
-        <!-- certificates -->
-        <article id="certificates" class="certificates">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="cv-image">
-            <div class="card-body">
-              <p class="card-text">this is my certtificate from <a href="https://shorturl.at/tuISZ" target="_blank">soloearn</a></p>
-            </div>
-          </div>
-        </article>
-      </section>
-
-      <!-- advertising -->
-      <section id="ads" class="ads">
-        <!-- Mira estos anuncios si quieres apoyarnos -->
-        <div class="card w-50">
-          <div class="card-body">
-            <h5 class="card-title">advertisement</h5>
-            <p class="card-text">add page</p>
-          </div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Yarvis405">
+    <meta name="description" content="this is a web development web page, and i got a store were you can find layouts etc.">
+    <meta name="keywords" content="web, design, store, development ,html, css, javascript">
+    <title id="title">Yarvis405</title>
+    <!-- <link rel="stylesheet" href="./src/styles/bootstrap.css" > -->
+    <link rel="stylesheet" href="./src/styles/main.css" >
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <div class="mainly">
+      <header>
+        <div id="info" class="info">
+          <h1>Yarvis405</h1>
+          <h2>Perfection means try and fail many times</h2>
         </div>
-      </section>
-    </main>
-
-    <footer>
-      <section class="brand" >
-        <figure><img src="./src/res/image"/> </figure>
-        <address>
-          <a href="#">@pagename</a>
-        </address>
-      </section>
-
-      <section class="legal">
-        <nav>
-          <ul>
-            <li>copyright corpName year</li>
-            <li><a href="#">politicas de privacidad</a></li>
-            <li><a href="#">imprimr</a></li>
-          </ul>
+  
+        <nav class="navi bar bar-light">
+          <div id="secHome" class="secHome">
+            <a id="btnHome" class="btnHome">Home<b>▲</b></a>
+            <nav>
+              <a href="#">Sign In</a>
+              <a href="#">Sign Out</a>
+            </nav>
+          </div>
+          <div id="secServices" class="secServices">
+            <a id="btnServices" class="btnServices">services<b>▼</b></a>
+            <nav>
+              <a href="#">Shop</a>
+              <a href="#">Support</a>
+            </nav>
+          </div>
+          <a id="btnAds" class="btnAds">ads</a>
+          <a id="btnAbout" class="btnAbout">about</a>
         </nav>
-      </section>
-    </footer>
-  </div>
-
-  <script src="./src/scripts/main.js" type="module"></script>
-
-</body>
+      </header>
+  
+      <main>
+        <!-- Home -->
+        <section id="home" class="home">
+          <!-- main -->
+          <article id="main" class="main">
+            <!-- know-me -->
+            <div class="card">
+              <div class="cbody">
+                <h5 class="ctitle">Introduction</h5>
+                <p class="ctext">My name is <b>Eben</b>, I'm a <b>Junior</b> web developer, I'm also Learned backend but now I'm just focusing on the design.</p>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img src="..." class="cimg" alt="...">
+              <div class="cbody">
+                <p class="ctext"><b>Name:</b> Eben</p>
+                <p class="ctext"><b>Birth:</b> 10-07-2004</p>
+                <p class="ctext"><b>Rank:</b> junior</p>
+              </div>
+            </div>
+          </article>
+  
+          <!-- projects -->
+          <article id="projects" class="projects">
+            <p class="alert danger">Projects is on development</p>
+          </article>
+  
+          <!-- advertisement petition -->
+          <p class="alert danger">Si quieres apoyar a esta pagina puedes digirte a la section de anuncios ;)</p>
+        </section>
+  
+        <!-- services -->
+        <section id="services" class="services">
+          <!-- shop -->
+          <article id="shop" class="shop">
+            <!-- layout -->
+            <div id="layout" class="layout">
+              <p class="alert danger">webName - layout shop is on development</p>
+            </div>
+  
+            <!-- custom -->
+            <div id="custom" class="custom">
+              <p class="alert danger">webName - custom shop is on development</p>
+            </div>
+          </article>
+  
+          <!-- support -->
+          <article id="support" class="support">
+            <!-- layout -->
+            <div id="layout" class="layout">
+              <p class="alert danger">webName - layiut support is on development</p>
+            </div>
+  
+            <!-- custom -->
+            <div id="custom" class="custom">
+              <p class="alert danger">webName - custom support is on development</p>
+            </div>
+          </article>
+  
+  
+        </section>
+  
+        <!-- about -->
+        <section id="about" class="about">
+          <!-- who am i -->
+          <article id="whoami" class="whoami">
+            <h2>basic information about myself</h2>
+          </article>
+          
+          <!-- curriculum vintae -->
+          <article id="cv" class="cv">
+            <div class="card">
+              <img src="..." class="cimg" alt="cv-image">
+              <div class="cbody">
+                <p class="ctext">this is my <a href="#">cv</a> with some of my experiences</p>
+              </div>
+            </div>
+          </article>
+  
+          <!-- certificates -->
+          <article id="certificates" class="certificates">
+            <div class="card">
+              <img src="..." class="cimg" alt="cv-image">
+              <div class="cbody">
+                <p class="ctext">this is my certtificate from <a href="https://shorturl.at/tuISZ" target="_blank">soloearn</a></p>
+              </div>
+            </div>
+          </article>
+        </section>
+  
+        <!-- advertising -->
+        <section id="ads" class="ads">
+          <!-- Mira estos anuncios si quieres apoyarnos -->
+          <div class="card w-50">
+            <div class="cbody">
+              <h5 class="ctitle">advertisement</h5>
+              <p class="ctext">add page</p>
+            </div>
+          </div>
+        </section>
+      </main>
+  
+      <footer>
+        <section class="brand" >
+          <figure><img src="./src/res/image" alt="Logo"/> </figure>
+          <address>
+            <a href="#"><h3>@pagename</h3></a>
+          </address>
+        </section>
+  
+        <section class="legal">
+          <nav>
+            <ul>
+              <li>&#169corpName year</li>
+              <li><a href="#">politicas de privacidad</a></li>
+              <li><a href="#">imprimir</a></li>
+            </ul>
+          </nav>
+        </section>
+      </footer>
+    </div>
+  
+    <script src="./src/scripts/main.js" type="module"></script>
+  
+  </body>
 </html>

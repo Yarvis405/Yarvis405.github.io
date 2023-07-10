@@ -1,0 +1,19 @@
+.services{
+	height: 100%;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.secServices{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	position: relative;
+}
+
+.secServices nav{
+	display: none;
+	background: var(--cfirst);
+	position: absolute;
+}

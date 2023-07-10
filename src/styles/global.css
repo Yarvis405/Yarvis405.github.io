@@ -1,0 +1,190 @@
+/*card*/
+
+/*
+    cbody -> card body;
+    ctitle -> card title;
+    cstitle -> card subtitle;
+    cimg -> card image;
+    ctext -> card text;
+    clink -> card link
+    cfooter -> card footer
+
+*/
+
+.card{
+    margin: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    min-height: auto;
+    background-color: var(--csecond);
+}
+
+.ctitle{
+    font-size: 1.5rem;
+    color: var(--cfifth);
+}
+
+.cstitle{
+    font-size: 1.2rem;
+    color: var(--cfourth);
+}
+
+.cimg{
+    width: 100%;
+    min-height: 5rem;
+}
+
+.ctext{
+    color: var(--cfirst);
+}
+
+.clink{}
+
+.cfooter{
+    color: var(--cfourth);
+}
+
+/*__________________________________________*/
+
+/*alert*/
+
+/*
+    success -> green;
+    danger -> red;
+    warning -> yellow;
+    info -> bluegreen
+*/
+
+.alert{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.success{
+    background: #d1e7dd;
+    border: solid 1px #a3cfbb;
+    border-radius: 2%;
+}
+
+.danger{
+    background: #f8d7da;
+    border: solid 1px #f1aeb5;
+    border-radius: 2%;
+}
+
+.warning{
+    background: #fff3cd;
+    border: solid 1px #ffe69c;
+    border-radius: 2%;
+}
+
+.infor{
+    background: #cff4fc;
+    border: solid 1px #9eeaf9;
+    border-radius: 2%;
+}
+
+/*__________________________________________*/
+
+/*button*/
+
+/*
+    success -> green;
+    danger -> red;
+    warning -> yellow;
+    info -> bluegreen
+    light -> lightgray
+    dark -> lightblack
+    link -> linkStyles
+    active -> navButton
+*/
+
+.btnsuccess{}
+
+.btndanger{}
+
+.btnwarning{}
+
+.btninfo{}
+
+.btnlink{}
+
+.btnactive{
+    background: var(--cfirst);
+    color: var(--cfifth);
+}
+
+
+/*__________________________________________*/
+
+/*nav*/
+
+/*
+    link
+    pills
+    side
+    dropdown
+    bar
+*/
+
+.navi{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.navi:hover{
+    margin: .6rem;
+    padding: .6rem;
+}
+
+.link{}
+
+.pills{}
+
+.bar{
+    border-radius: 100px;
+}
+
+.bar-light{
+    background: var(--csecond);
+    color: var(--cfirst);
+    
+}
+
+.bar-dark{
+    background: var(--csecond);
+    color: var(--cfirst);
+}
+
+.bar a{
+    margin: .1rem;
+    padding: .1rem;
+    border-radius: 100px;
+/*    transition: .7s;*/
+}
+
+.bar-light a:hover{
+    background: var(--cfifth);
+    color: var(--cfirst);
+}
+
+.bar-dark a:hover{
+    background: var(--cfirst);
+    color: var(--cfifth);
+}
+
+/*__________________________________________*/
+
+/*progress*/
+
+/*
+    circle;
+    bar;
+    scroll;
+*/
+
+.circle{}
+
+.bar{}
+
+.scroll{}

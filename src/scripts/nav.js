@@ -10,8 +10,6 @@ export let btnHome = document.querySelector("#btnHome")
 export let btnServices = document.querySelector("#btnServices")
 export let btnAds = document.querySelector("#btnAds")
 export let btnAbout = document.querySelector("#btnAbout")
-
-export let btn = { btnHome, btnServices, btnAds, btnAbout}
 // export let section = 0
 
 export const nav = (section) => {
@@ -19,10 +17,14 @@ export const nav = (section) => {
 	switch(section){
 		case 0:
 			title.innerHTML = "Yarvis405 - Home";
-			home.style.display = "flex";
+			home.style.display="flex";
 			services.style.display = "none";
 			ads.style.display = "none";
 			about.style.display = "none";
+			btnHome.className += " btnactive"
+			btnServices.className = "btnServices"
+			btnAds.className = "btnAds"
+			btnAbout.className = "btnAbout"
 			break
 
 		case 1:
@@ -31,6 +33,10 @@ export const nav = (section) => {
 			home.style.display = "none";
 			ads.style.display = "none";
 			about.style.display = "none";
+			btnHome.className = " btnHome"
+			btnServices.className += " btnactive"
+			btnAds.className = "btnAds"
+			btnAbout.className = "btnAbout"
 			break
 
 		case 2:
@@ -39,6 +45,10 @@ export const nav = (section) => {
 			services.style.display = "none";
 			home.style.display = "none";
 			about.style.display = "none";
+			btnHome.className = "btnHome"
+			btnServices.className = "btnServices"
+			btnAds.className += " btnactive"
+			btnAbout.className = "btnAbout"
 			break
 
 		case 3:
@@ -47,15 +57,23 @@ export const nav = (section) => {
 			services.style.display = "none";
 			ads.style.display = "none";
 			home.style.display = "none";
+			btnHome.className = "btnHome"
+			btnServices.className = "btnServices"
+			btnAds.className = "btnAds"
+			btnAbout.className += " btnactive"
 			break
 
 
 		default:
+			home.style.display="flex";
 			title.innerHTML = "Yarvis405 - Home";
-			home.style.display = "flex";
 			services.style.display = "none";
 			ads.style.display = "none";
 			about.style.display = "none";
+			btnHome.className += " btnactive"
+			btnServices.className = "btnServices"
+			btnAds.className = "btnAds"
+			btnAbout.className = "btnAbout"
 		break
 	}
 }
